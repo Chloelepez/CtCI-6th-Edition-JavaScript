@@ -25,5 +25,5 @@ console.log(urlify('Mr John Smith    ', 13), 'Mr%20John%20Smith');
 
 
 // Solution using regex
- +function urlify(str) {
- +  return str.trim().replace(/\s/g, '%20');
+function urlify(str) {
+   return str.trim().replace(/\s/g, '%20');
